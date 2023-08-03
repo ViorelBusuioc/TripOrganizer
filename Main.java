@@ -5,7 +5,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        LinkedList<String> placesToVisit = new LinkedList<>();
         var placesToVisit = new LinkedList<String>();
         placesToVisit.add("Sydney");
         placesToVisit.add(0,"Canberra");
@@ -13,13 +12,6 @@ public class Main {
 
         addMoreElements(placesToVisit);
         System.out.println(placesToVisit);
-
-//        removeElements(placesToVisit);
-//        System.out.println(placesToVisit);
-
-//        gettingElements(placesToVisit);
-
-//        printItinerary3(placesToVisit);
 
         testIterator(placesToVisit);
 
